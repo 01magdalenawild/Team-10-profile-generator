@@ -16,7 +16,8 @@ This application was created to generate a team profile based on user input usin
 ## Installation 
 The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.
 
-
+##Test
+https://drive.google.com/file/d/16EgJPCOFYGW_l_P4XQ32HH9OGatL_t0n/view
 
 
 ## License 

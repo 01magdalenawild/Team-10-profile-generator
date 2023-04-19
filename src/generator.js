@@ -46,6 +46,24 @@ function createintern(intern){
    </div> 
     `
 }
+
+    function createintern(manager){
+        return `
+        <div class="card">
+        <div class="card-header bs-primary">
+            <div class="card-title">
+                ${intern.getname()}
+            </div>
+            <div class="card-body">
+                    <p class="id">ID: ${manager.id}</p>
+                    <p class="email">Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
+                
+                </div>
+        </div>
+       </div> 
+        `
+}
+
 function insertcards(team){
     var cardarray=[];
 cardarray.push(team.filter(emp =>emp.getrole()==="manager").map(manager =>createmanager(manager)))
